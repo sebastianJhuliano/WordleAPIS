@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url(./imagen/Fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+     
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+ 
+  div{
+    text-align:center;
+    margin-top:15px;
+  }
+  #recarga {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3bcf2b;
+    color: #000000;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+#guess-button {
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+h3{
+
+  margin-left: 410px;
+  margin-right: 410px;
+  
+  border :1px solid rgb(61, 56, 56) ;
+  background-color: #0CBABA;
+  padding:8px 8px;
+  
+}
+
+
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+     
+     
+  button:active {
+      transform: scale(0.95);
+  }
+ 
+     
+  .letter {
+      border: 1px solid black;
+      padding: 3px;
+      margin: 3px;
+      min-width: 20px;
+      text-align: center;
+      display: inline-block
+  }
+     
+  .row{
+      margin-bottom: 10px;
+  }
+     
+  .input-area{
+      margin: 30px;
+  }
+ 
